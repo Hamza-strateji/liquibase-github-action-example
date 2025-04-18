@@ -4,13 +4,35 @@ jobs:
   test-liquibase-action:
     runs-on: ubuntu-latest
     name: Test Liquibase Action
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: liquibase/liquibase-github-action@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Read liquibase.flag
+        id: read_mode
+        run: |
+          MODE=$(grep MODE liquibase.flag | cut -d '=' -f2)
+          echo "MODE=$MODE" >> $GITHUB_OUTPUT
+
+      - name: Run Liquibase Action - Generate Mode
+        if: steps.read_mode.outputs.mode == 'generate'
+        uses: liquibase/liquibase-github-action@v2
         with:
           operation: 'update'
           classpath: 'example/changelogs'
-          changelogFile: 'first_test.xml'
+          changelogFile: 'first_test.xml' # veya generateChangeLog ile oluşturduğun dosya
+          url: jdbc:postgresql://5.133.102.147:5437/postgres
+          username: postgres
+          password: G1Wkfb10ScT68mZfGUN5dVDsp4rF44d1
+
+      - name: Run Liquibase Action - Diff Mode
+        if: steps.read_mode.outputs.mode == 'diff'
+        uses: liquibase/liquibase-github-action@v2
+        with:
+          operation: 'update'
+          classpath: 'example/changelogs'
+          changelogFile: 'diff.sql' # diffChangeLog ile oluşturduğun dosya
           url: jdbc:postgresql://5.133.102.147:5437/postgres
           username: postgres
           password: G1Wkfb10ScT68mZfGUN5dVDsp4rF44d1
