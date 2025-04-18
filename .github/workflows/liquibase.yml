@@ -9,7 +9,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Read liquibase.flag
+      - name: Read 'liquibase.flag'
         id: read_mode
         run: |
           MODE=$(grep MODE liquibase.flag | cut -d '=' -f2)
