@@ -1,0 +1,16 @@
+on: [push]
+
+jobs:
+  test-liquibase-action:
+    runs-on: ubuntu-latest
+    name: Test Liquibase Action
+    steps:
+      - uses: actions/checkout@v2
+      - uses: liquibase/liquibase-github-action@v2
+        with:
+          operation: 'update'
+          classpath: 'example/changelogs'
+          changelogFile: db/liquibase/changelog.xml
+          url: jdbc:postgresql://5.133.102.147:5437/dbname
+          username: postgres
+          password: G1Wkfb10ScT68mZfGUN5dVDsp4rF44d1
