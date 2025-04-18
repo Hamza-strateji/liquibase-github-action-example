@@ -11,6 +11,6 @@ jobs:
           operation: 'update'
           classpath: 'example/changelogs'
           changelogFile: db/liquibase/changelog.xml
-          url: jdbc:postgresql://5.133.102.147:5437/_supabase
+          url: jdbc:postgresql://5.133.102.147:5437/postgres
           username: postgres
           password: G1Wkfb10ScT68mZfGUN5dVDsp4rF44d1
