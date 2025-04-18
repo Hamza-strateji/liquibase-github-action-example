@@ -13,7 +13,7 @@ jobs:
         id: read_mode
         run: |
           MODE=$(grep MODE liquibase.flag | cut -d '=' -f2)
-          echo "MODE=$MODE" >> $GITHUB_OUTPUT
+          echo "mode=$MODE" >> $GITHUB_OUTPUT
 
       - name: Run Liquibase Action - Generate Mode
         if: steps.read_mode.outputs.mode == 'generate'
