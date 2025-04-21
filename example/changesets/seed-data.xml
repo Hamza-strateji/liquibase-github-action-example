@@ -1,0 +1,685 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="1"/>
+            <column name="created_at" valueDate="2023-12-19"/>
+            <column name="title" value="Category 1"/>
+            <column name="slug" value="category-1"/>
+            <column name="description" value="Category 1 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="2"/>
+            <column name="created_at" valueDate="2023-12-03"/>
+            <column name="title" value="Category 2"/>
+            <column name="slug" value="category-2"/>
+            <column name="description" value="Category 2 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="3"/>
+            <column name="created_at" valueDate="2023-04-21"/>
+            <column name="title" value="Category 3"/>
+            <column name="slug" value="category-3"/>
+            <column name="description" value="Category 3 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="4"/>
+            <column name="created_at" valueDate="2023-02-24"/>
+            <column name="title" value="Category 4"/>
+            <column name="slug" value="category-4"/>
+            <column name="description" value="Category 4 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="5"/>
+            <column name="created_at" valueDate="2023-11-25"/>
+            <column name="title" value="Category 5"/>
+            <column name="slug" value="category-5"/>
+            <column name="description" value="Category 5 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="6"/>
+            <column name="created_at" valueDate="2023-05-25"/>
+            <column name="title" value="Category 6"/>
+            <column name="slug" value="category-6"/>
+            <column name="description" value="Category 6 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="7"/>
+            <column name="created_at" valueDate="2023-07-01"/>
+            <column name="title" value="Category 7"/>
+            <column name="slug" value="category-7"/>
+            <column name="description" value="Category 7 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="8"/>
+            <column name="created_at" valueDate="2023-12-02"/>
+            <column name="title" value="Category 8"/>
+            <column name="slug" value="category-8"/>
+            <column name="description" value="Category 8 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="9"/>
+            <column name="created_at" valueDate="2023-08-08"/>
+            <column name="title" value="Category 9"/>
+            <column name="slug" value="category-9"/>
+            <column name="description" value="Category 9 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="10"/>
+            <column name="created_at" valueDate="2023-08-07"/>
+            <column name="title" value="Category 10"/>
+            <column name="slug" value="category-10"/>
+            <column name="description" value="Category 10 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="11"/>
+            <column name="created_at" valueDate="2023-01-30"/>
+            <column name="title" value="Category 11"/>
+            <column name="slug" value="category-11"/>
+            <column name="description" value="Category 11 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="12"/>
+            <column name="created_at" valueDate="2023-02-10"/>
+            <column name="title" value="Category 12"/>
+            <column name="slug" value="category-12"/>
+            <column name="description" value="Category 12 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="13"/>
+            <column name="created_at" valueDate="2023-06-08"/>
+            <column name="title" value="Category 13"/>
+            <column name="slug" value="category-13"/>
+            <column name="description" value="Category 13 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="14"/>
+            <column name="created_at" valueDate="2023-11-28"/>
+            <column name="title" value="Category 14"/>
+            <column name="slug" value="category-14"/>
+            <column name="description" value="Category 14 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="15"/>
+            <column name="created_at" valueDate="2023-10-29"/>
+            <column name="title" value="Category 15"/>
+            <column name="slug" value="category-15"/>
+            <column name="description" value="Category 15 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="16"/>
+            <column name="created_at" valueDate="2023-01-13"/>
+            <column name="title" value="Category 16"/>
+            <column name="slug" value="category-16"/>
+            <column name="description" value="Category 16 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="17"/>
+            <column name="created_at" valueDate="2023-07-12"/>
+            <column name="title" value="Category 17"/>
+            <column name="slug" value="category-17"/>
+            <column name="description" value="Category 17 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="18"/>
+            <column name="created_at" valueDate="2023-04-09"/>
+            <column name="title" value="Category 18"/>
+            <column name="slug" value="category-18"/>
+            <column name="description" value="Category 18 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="19"/>
+            <column name="created_at" valueDate="2023-03-15"/>
+            <column name="title" value="Category 19"/>
+            <column name="slug" value="category-19"/>
+            <column name="description" value="Category 19 description"/>
+        </insert>
+
+        <insert tableName="category">
+            <column name="id" valueNumeric="20"/>
+            <column name="created_at" valueDate="2023-07-26"/>
+            <column name="title" value="Category 20"/>
+            <column name="slug" value="category-20"/>
+            <column name="description" value="Category 20 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="1"/>
+            <column name="created_at" valueDate="2023-06-16"/>
+            <column name="title" value="City 1"/>
+            <column name="slug" value="city-1"/>
+            <column name="description" value="City 1 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="2"/>
+            <column name="created_at" valueDate="2023-08-19"/>
+            <column name="title" value="City 2"/>
+            <column name="slug" value="city-2"/>
+            <column name="description" value="City 2 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="3"/>
+            <column name="created_at" valueDate="2023-06-12"/>
+            <column name="title" value="City 3"/>
+            <column name="slug" value="city-3"/>
+            <column name="description" value="City 3 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="4"/>
+            <column name="created_at" valueDate="2023-06-13"/>
+            <column name="title" value="City 4"/>
+            <column name="slug" value="city-4"/>
+            <column name="description" value="City 4 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="5"/>
+            <column name="created_at" valueDate="2023-03-01"/>
+            <column name="title" value="City 5"/>
+            <column name="slug" value="city-5"/>
+            <column name="description" value="City 5 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="6"/>
+            <column name="created_at" valueDate="2023-02-09"/>
+            <column name="title" value="City 6"/>
+            <column name="slug" value="city-6"/>
+            <column name="description" value="City 6 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="7"/>
+            <column name="created_at" valueDate="2023-09-10"/>
+            <column name="title" value="City 7"/>
+            <column name="slug" value="city-7"/>
+            <column name="description" value="City 7 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="8"/>
+            <column name="created_at" valueDate="2023-11-22"/>
+            <column name="title" value="City 8"/>
+            <column name="slug" value="city-8"/>
+            <column name="description" value="City 8 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="9"/>
+            <column name="created_at" valueDate="2023-02-28"/>
+            <column name="title" value="City 9"/>
+            <column name="slug" value="city-9"/>
+            <column name="description" value="City 9 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="10"/>
+            <column name="created_at" valueDate="2023-02-26"/>
+            <column name="title" value="City 10"/>
+            <column name="slug" value="city-10"/>
+            <column name="description" value="City 10 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="11"/>
+            <column name="created_at" valueDate="2023-07-24"/>
+            <column name="title" value="City 11"/>
+            <column name="slug" value="city-11"/>
+            <column name="description" value="City 11 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="12"/>
+            <column name="created_at" valueDate="2023-05-05"/>
+            <column name="title" value="City 12"/>
+            <column name="slug" value="city-12"/>
+            <column name="description" value="City 12 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="13"/>
+            <column name="created_at" valueDate="2023-08-17"/>
+            <column name="title" value="City 13"/>
+            <column name="slug" value="city-13"/>
+            <column name="description" value="City 13 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="14"/>
+            <column name="created_at" valueDate="2023-10-11"/>
+            <column name="title" value="City 14"/>
+            <column name="slug" value="city-14"/>
+            <column name="description" value="City 14 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="15"/>
+            <column name="created_at" valueDate="2023-11-29"/>
+            <column name="title" value="City 15"/>
+            <column name="slug" value="city-15"/>
+            <column name="description" value="City 15 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="16"/>
+            <column name="created_at" valueDate="2023-03-10"/>
+            <column name="title" value="City 16"/>
+            <column name="slug" value="city-16"/>
+            <column name="description" value="City 16 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="17"/>
+            <column name="created_at" valueDate="2023-11-30"/>
+            <column name="title" value="City 17"/>
+            <column name="slug" value="city-17"/>
+            <column name="description" value="City 17 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="18"/>
+            <column name="created_at" valueDate="2023-06-20"/>
+            <column name="title" value="City 18"/>
+            <column name="slug" value="city-18"/>
+            <column name="description" value="City 18 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="19"/>
+            <column name="created_at" valueDate="2023-05-01"/>
+            <column name="title" value="City 19"/>
+            <column name="slug" value="city-19"/>
+            <column name="description" value="City 19 description"/>
+        </insert>
+
+        <insert tableName="city">
+            <column name="id" valueNumeric="20"/>
+            <column name="created_at" valueDate="2023-12-12"/>
+            <column name="title" value="City 20"/>
+            <column name="slug" value="city-20"/>
+            <column name="description" value="City 20 description"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="1"/>
+            <column name="created_at" valueDate="2023-07-27"/>
+            <column name="Name" value="Name1"/>
+            <column name="Surname" value="Surname1"/>
+            <column name="UserName" value="user1"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="2"/>
+            <column name="created_at" valueDate="2023-04-24"/>
+            <column name="Name" value="Name2"/>
+            <column name="Surname" value="Surname2"/>
+            <column name="UserName" value="user2"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="3"/>
+            <column name="created_at" valueDate="2023-07-08"/>
+            <column name="Name" value="Name3"/>
+            <column name="Surname" value="Surname3"/>
+            <column name="UserName" value="user3"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="4"/>
+            <column name="created_at" valueDate="2023-08-18"/>
+            <column name="Name" value="Name4"/>
+            <column name="Surname" value="Surname4"/>
+            <column name="UserName" value="user4"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="5"/>
+            <column name="created_at" valueDate="2023-08-21"/>
+            <column name="Name" value="Name5"/>
+            <column name="Surname" value="Surname5"/>
+            <column name="UserName" value="user5"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="6"/>
+            <column name="created_at" valueDate="2023-05-11"/>
+            <column name="Name" value="Name6"/>
+            <column name="Surname" value="Surname6"/>
+            <column name="UserName" value="user6"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="7"/>
+            <column name="created_at" valueDate="2023-12-09"/>
+            <column name="Name" value="Name7"/>
+            <column name="Surname" value="Surname7"/>
+            <column name="UserName" value="user7"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="8"/>
+            <column name="created_at" valueDate="2023-04-24"/>
+            <column name="Name" value="Name8"/>
+            <column name="Surname" value="Surname8"/>
+            <column name="UserName" value="user8"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="9"/>
+            <column name="created_at" valueDate="2023-10-10"/>
+            <column name="Name" value="Name9"/>
+            <column name="Surname" value="Surname9"/>
+            <column name="UserName" value="user9"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="10"/>
+            <column name="created_at" valueDate="2023-10-03"/>
+            <column name="Name" value="Name10"/>
+            <column name="Surname" value="Surname10"/>
+            <column name="UserName" value="user10"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="11"/>
+            <column name="created_at" valueDate="2023-02-01"/>
+            <column name="Name" value="Name11"/>
+            <column name="Surname" value="Surname11"/>
+            <column name="UserName" value="user11"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="12"/>
+            <column name="created_at" valueDate="2023-09-26"/>
+            <column name="Name" value="Name12"/>
+            <column name="Surname" value="Surname12"/>
+            <column name="UserName" value="user12"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="13"/>
+            <column name="created_at" valueDate="2023-07-07"/>
+            <column name="Name" value="Name13"/>
+            <column name="Surname" value="Surname13"/>
+            <column name="UserName" value="user13"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="14"/>
+            <column name="created_at" valueDate="2023-10-25"/>
+            <column name="Name" value="Name14"/>
+            <column name="Surname" value="Surname14"/>
+            <column name="UserName" value="user14"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="15"/>
+            <column name="created_at" valueDate="2023-06-20"/>
+            <column name="Name" value="Name15"/>
+            <column name="Surname" value="Surname15"/>
+            <column name="UserName" value="user15"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="16"/>
+            <column name="created_at" valueDate="2023-02-16"/>
+            <column name="Name" value="Name16"/>
+            <column name="Surname" value="Surname16"/>
+            <column name="UserName" value="user16"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="17"/>
+            <column name="created_at" valueDate="2023-01-20"/>
+            <column name="Name" value="Name17"/>
+            <column name="Surname" value="Surname17"/>
+            <column name="UserName" value="user17"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="18"/>
+            <column name="created_at" valueDate="2023-08-17"/>
+            <column name="Name" value="Name18"/>
+            <column name="Surname" value="Surname18"/>
+            <column name="UserName" value="user18"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="19"/>
+            <column name="created_at" valueDate="2023-05-05"/>
+            <column name="Name" value="Name19"/>
+            <column name="Surname" value="Surname19"/>
+            <column name="UserName" value="user19"/>
+        </insert>
+
+        <insert tableName="User">
+            <column name="id" valueNumeric="20"/>
+            <column name="created_at" valueDate="2023-12-25"/>
+            <column name="Name" value="Name20"/>
+            <column name="Surname" value="Surname20"/>
+            <column name="UserName" value="user20"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="1"/>
+            <column name="created_at" valueDate="2023-10-24"/>
+            <column name="title" value="Post 1"/>
+            <column name="short" value="Short description 1"/>
+            <column name="content" value="Full content of post 1."/>
+            <column name="cat_id" valueNumeric="10"/>
+            <column name="city_id" valueNumeric="15"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="2"/>
+            <column name="created_at" valueDate="2023-03-01"/>
+            <column name="title" value="Post 2"/>
+            <column name="short" value="Short description 2"/>
+            <column name="content" value="Full content of post 2."/>
+            <column name="cat_id" valueNumeric="14"/>
+            <column name="city_id" valueNumeric="5"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="3"/>
+            <column name="created_at" valueDate="2023-12-11"/>
+            <column name="title" value="Post 3"/>
+            <column name="short" value="Short description 3"/>
+            <column name="content" value="Full content of post 3."/>
+            <column name="cat_id" valueNumeric="5"/>
+            <column name="city_id" valueNumeric="12"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="4"/>
+            <column name="created_at" valueDate="2023-10-22"/>
+            <column name="title" value="Post 4"/>
+            <column name="short" value="Short description 4"/>
+            <column name="content" value="Full content of post 4."/>
+            <column name="cat_id" valueNumeric="20"/>
+            <column name="city_id" valueNumeric="18"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="5"/>
+            <column name="created_at" valueDate="2023-08-17"/>
+            <column name="title" value="Post 5"/>
+            <column name="short" value="Short description 5"/>
+            <column name="content" value="Full content of post 5."/>
+            <column name="cat_id" valueNumeric="20"/>
+            <column name="city_id" valueNumeric="13"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="6"/>
+            <column name="created_at" valueDate="2023-10-16"/>
+            <column name="title" value="Post 6"/>
+            <column name="short" value="Short description 6"/>
+            <column name="content" value="Full content of post 6."/>
+            <column name="cat_id" valueNumeric="6"/>
+            <column name="city_id" valueNumeric="8"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="7"/>
+            <column name="created_at" valueDate="2023-08-03"/>
+            <column name="title" value="Post 7"/>
+            <column name="short" value="Short description 7"/>
+            <column name="content" value="Full content of post 7."/>
+            <column name="cat_id" valueNumeric="4"/>
+            <column name="city_id" valueNumeric="17"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="8"/>
+            <column name="created_at" valueDate="2023-02-05"/>
+            <column name="title" value="Post 8"/>
+            <column name="short" value="Short description 8"/>
+            <column name="content" value="Full content of post 8."/>
+            <column name="cat_id" valueNumeric="6"/>
+            <column name="city_id" valueNumeric="3"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="9"/>
+            <column name="created_at" valueDate="2023-08-04"/>
+            <column name="title" value="Post 9"/>
+            <column name="short" value="Short description 9"/>
+            <column name="content" value="Full content of post 9."/>
+            <column name="cat_id" valueNumeric="16"/>
+            <column name="city_id" valueNumeric="18"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="10"/>
+            <column name="created_at" valueDate="2023-02-04"/>
+            <column name="title" value="Post 10"/>
+            <column name="short" value="Short description 10"/>
+            <column name="content" value="Full content of post 10."/>
+            <column name="cat_id" valueNumeric="13"/>
+            <column name="city_id" valueNumeric="18"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="11"/>
+            <column name="created_at" valueDate="2023-03-01"/>
+            <column name="title" value="Post 11"/>
+            <column name="short" value="Short description 11"/>
+            <column name="content" value="Full content of post 11."/>
+            <column name="cat_id" valueNumeric="17"/>
+            <column name="city_id" valueNumeric="3"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="12"/>
+            <column name="created_at" valueDate="2023-12-18"/>
+            <column name="title" value="Post 12"/>
+            <column name="short" value="Short description 12"/>
+            <column name="content" value="Full content of post 12."/>
+            <column name="cat_id" valueNumeric="10"/>
+            <column name="city_id" valueNumeric="9"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="13"/>
+            <column name="created_at" valueDate="2023-01-05"/>
+            <column name="title" value="Post 13"/>
+            <column name="short" value="Short description 13"/>
+            <column name="content" value="Full content of post 13."/>
+            <column name="cat_id" valueNumeric="19"/>
+            <column name="city_id" valueNumeric="8"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="14"/>
+            <column name="created_at" valueDate="2023-08-07"/>
+            <column name="title" value="Post 14"/>
+            <column name="short" value="Short description 14"/>
+            <column name="content" value="Full content of post 14."/>
+            <column name="cat_id" valueNumeric="18"/>
+            <column name="city_id" valueNumeric="17"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="15"/>
+            <column name="created_at" valueDate="2023-02-08"/>
+            <column name="title" value="Post 15"/>
+            <column name="short" value="Short description 15"/>
+            <column name="content" value="Full content of post 15."/>
+            <column name="cat_id" valueNumeric="11"/>
+            <column name="city_id" valueNumeric="6"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="16"/>
+            <column name="created_at" valueDate="2023-07-25"/>
+            <column name="title" value="Post 16"/>
+            <column name="short" value="Short description 16"/>
+            <column name="content" value="Full content of post 16."/>
+            <column name="cat_id" valueNumeric="20"/>
+            <column name="city_id" valueNumeric="3"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="17"/>
+            <column name="created_at" valueDate="2023-04-25"/>
+            <column name="title" value="Post 17"/>
+            <column name="short" value="Short description 17"/>
+            <column name="content" value="Full content of post 17."/>
+            <column name="cat_id" valueNumeric="12"/>
+            <column name="city_id" valueNumeric="11"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="18"/>
+            <column name="created_at" valueDate="2023-10-16"/>
+            <column name="title" value="Post 18"/>
+            <column name="short" value="Short description 18"/>
+            <column name="content" value="Full content of post 18."/>
+            <column name="cat_id" valueNumeric="8"/>
+            <column name="city_id" valueNumeric="12"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="19"/>
+            <column name="created_at" valueDate="2023-01-18"/>
+            <column name="title" value="Post 19"/>
+            <column name="short" value="Short description 19"/>
+            <column name="content" value="Full content of post 19."/>
+            <column name="cat_id" valueNumeric="20"/>
+            <column name="city_id" valueNumeric="13"/>
+        </insert>
+
+        <insert tableName="post">
+            <column name="id" valueNumeric="20"/>
+            <column name="created_at" valueDate="2023-11-14"/>
+            <column name="title" value="Post 20"/>
+            <column name="short" value="Short description 20"/>
+            <column name="content" value="Full content of post 20."/>
+            <column name="cat_id" valueNumeric="2"/>
+            <column name="city_id" valueNumeric="1"/>
+        </insert>
+</databaseChangeLog>
