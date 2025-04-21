@@ -78,3 +78,4 @@ INSERT INTO posts (id, created_at, title, short, content, cat_id, city_id) VALUE
 INSERT INTO posts (id, created_at, title, short, content, cat_id, city_id) VALUES (18, '2023-10-16', 'posts 18', 'Short description 18', 'Full content of posts 18.', 8, 12);
 INSERT INTO posts (id, created_at, title, short, content, cat_id, city_id) VALUES (19, '2023-01-18', 'posts 19', 'Short description 19', 'Full content of posts 19.', 20, 13);
 INSERT INTO posts (id, created_at, title, short, content, cat_id, city_id) VALUES (20, '2023-11-14', 'posts 20', 'Short description 20', 'Full content of posts 20.', 2, 1);
+INSERT INTO posts (id, created_at, title, short, content, cat_id, city_id) VALUES (20, '2023-11-14', 'posts 20', 'Short description 20', 'Full content of posts 20.', 12, 1);
