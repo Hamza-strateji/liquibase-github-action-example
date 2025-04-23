@@ -9,19 +9,19 @@
         <sqlFile path="changesets/seed-data.sql" relativeToChangelogFile="false"/>
     </changeSet>
     <changeSet id="seed-data-user-001" author="you">
-    <preConditions onFail="MARK_RAN">
-        <not>
-            <sqlCheck expectedResult="0">
-                SELECT COUNT(*) FROM user WHERE "UserName" = 'admin'
-            </sqlCheck>
-        </not>
-    </preConditions>
+        <preConditions onFail="MARK_RAN">
+            <not>
+                <sqlCheck expectedResult="0">
+                    SELECT COUNT(*) FROM user WHERE public."UserName" = 'admin'
+                </sqlCheck>
+            </not>
+        </preConditions>
 
-    <insert tableName="user">
-        <column name="UserName" value="admin"/>
-        <column name="Name" value="Aslan"/>
-        <column name="Surname" value="Varol"/>
-        <column name="created_at" value="2023-07-27 00:00:00+00"/>
-    </insert>
-</changeSet>
+        <insert tableName="user">
+            <column name="UserName" value="admin"/>
+            <column name="Name" value="Aslan"/>
+            <column name="Surname" value="Varol"/>
+            <column name="created_at" value="2023-07-27 00:00:00+00"/>
+        </insert>
+    </changeSet>
 </databaseChangeLog>
