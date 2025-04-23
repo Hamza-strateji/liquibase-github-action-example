@@ -8,7 +8,7 @@
     <changeSet id="seed-sql" author="you">
         <sqlFile path="changesets/seed-data.sql" relativeToChangelogFile="false"/>
     </changeSet>
-    <changeSet id="seed-data-user-001" author="you">
+    <changeSet id="seed-data-user-002" author="you">
         <sql>
             INSERT INTO public.user ("UserName", "Name", "Surname", created_at)
             SELECT 'admin', 'Aslan', 'Vural','2023-07-27 00:00:00+00'
